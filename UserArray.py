@@ -4,4 +4,4 @@ def UserArray(list):
     for i in range(0,n):
         element=int(input("Enter a number: "))
         list.append(element)
-    return(list)
+    return list

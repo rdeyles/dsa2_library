@@ -1,6 +1,6 @@
-from UserArray import UserArray
+import UserArray as up
 list=[]
-numbers = UserArray(list)
+numbers = up.UserArray(list)
 target=int(input("Please enter an integer to search for: "))
 found = False
 while not found and len(numbers)>0:
