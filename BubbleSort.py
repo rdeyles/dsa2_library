@@ -1,5 +1,5 @@
 #sort integers or strings in ascending order
-arr=[]
+arr=randint([])
 has_swapped = True
 while has_swapped == True:
     has_swapped = False
