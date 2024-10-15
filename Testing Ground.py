@@ -8,7 +8,7 @@
 che=[7]
 test(che)'''
 
-import matplotlib.pyplot as mp
+'''import matplotlib.pyplot as mp
 
 a=[1,2,3,4,5]
 
@@ -26,4 +26,10 @@ axis.set_title("Plot vs Scatter")  # Add a title to the axes.
 
 axis.legend()  # Add a legend
 
-mp.show()
+mp.show()'''
+
+a="supercalifragilisticexpialidocious"
+output=""
+for i in range (0,10,2):
+    output=output+a[0:i]
+print(output)
