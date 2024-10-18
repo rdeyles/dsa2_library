@@ -28,8 +28,35 @@ axis.legend()  # Add a legend
 
 mp.show()'''
 
-a="supercalifragilisticexpialidocious"
+'''a="supercalifragilisticexpialidocious"
 output=""
 for i in range (0,10,2):
     output=output+a[0:i]
-print(output)
+print(output)'''
+
+import matplotlib.pyplot as mp
+import networkx as nx
+
+ 
+
+#undirected graph
+
+ 
+
+G = nx.Graph()
+
+ 
+
+G.add_node(1)
+
+G.add_node(2)
+
+ 
+
+G.add_edge(1,2)
+
+ 
+
+nx.draw(G)
+
+mp.show()
