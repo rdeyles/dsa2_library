@@ -45,18 +45,18 @@ import networkx as nx
 
 G = nx.Graph()
 
+nodes=['Paris','Lyon']
+
+#G.add_node('Paris')
+
+#G.add_node('Lyon')
+G.add_nodes_from(nodes)
  
 
-G.add_node(1)
-
-G.add_node(2)
+G.add_edge('Paris','Lyon')
 
  
 
-G.add_edge(1,2)
-
- 
-
-nx.draw(G)
+nx.draw(G,with_labels=True)
 
 mp.show()
