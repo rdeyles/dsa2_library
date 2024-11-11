@@ -1,62 +1,6 @@
-'''def test(check):
-    n=4
-    while len(check)<4:
-        check.append(n)
-        n=n+1
-    print(check)
-
-che=[7]
-test(che)'''
-
-'''import matplotlib.pyplot as mp
-
-a=[1,2,3,4,5]
-
-figure, axis = mp.subplots()
-
-axis.plot(a,a, label='"a" array, plotted', c='r')  # Plot some data.
-
-axis.scatter(a, a, label='"a" array, scattered')  # Plot some more data
-
-axis.set_xlabel('x label')  # Add an x-label to the axes.
-
-axis.set_ylabel('a values')  # Add a y-label to the axes.
-
-axis.set_title("Plot vs Scatter")  # Add a title to the axes.
-
-axis.legend()  # Add a legend
-
-mp.show()'''
-
-'''a="supercalifragilisticexpialidocious"
-output=""
-for i in range (0,10,2):
-    output=output+a[0:i]
-print(output)'''
-
+from PIL import Image
 import matplotlib.pyplot as mp
-import networkx as nx
+import numpy as np
 
- 
-
-#undirected graph
-
- 
-
-G = nx.Graph()
-
-nodes=['Paris','Lyon']
-
-#G.add_node('Paris')
-
-#G.add_node('Lyon')
-G.add_nodes_from(nodes)
- 
-
-G.add_edge('Paris','Lyon')
-
- 
-
-nx.draw(G,with_labels=True)
-
-mp.show()
+img = np.asarray(Image.open('/Users/rhysdavideyles/Documents/CS/Github/dsa2_library/maze-2.png'))
+print(repr(img))
