@@ -1,2 +1,2 @@
 # dsa2_library
-The 
+This library stores the images used in the assignment.
